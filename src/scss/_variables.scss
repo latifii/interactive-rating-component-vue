@@ -1,0 +1,36 @@
+$size-app-max-width: 800px;
+$size-mobile-breakpoint: 700px;
+
+$color-orange: hsl(25, 97%, 53%);
+$color-white: hsl(0, 0%, 100%);
+$color-light-grey : hsl(217, 12%, 63%);
+$color-medium-grey : hsl(216, 12%, 54%);
+$color-hightmedium-grey : hsl(213, 20%, 22%);
+$color-dark-blue : hsl(213, 19%, 18%);
+$color-hightdark-blue : hsl(216, 12%, 8%);
+
+$font-size-p: 15px;
+$font-size-m: 18px;
+$font-size-l: 32px;
+$font-weight-bold: 700;
+$border-radius: 25px;
+
+$transition: .3s all ease-in-out;
+
+@mixin circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  background-color: $color-hightmedium-grey;
+  border-radius: 99px;
+}
+
+@mixin paragraph  {
+  margin: 0;
+  color: $color-medium-grey;
+  font-size: $font-size-p;
+  text-align: left;
+  line-height: 1.6;
+}
