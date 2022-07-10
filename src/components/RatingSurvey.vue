@@ -1,7 +1,7 @@
 <template>
   <base-card>
     <div class="star">
-      <img src="@/assets/icon-star.svg" alt="" />
+      <img src="@/assets/icon-star.svg" alt="star icon" />
     </div>
     <h1>How did we do?</h1>
     <p>

@@ -1,7 +1,7 @@
 <template>
   <base-card>
     <div>
-      <img src="@/assets/illustration-thank-you.svg" alt="">
+      <img src="@/assets/illustration-thank-you.svg" alt="thank you icon">
     </div>
     <p class="result">You selected {{resRating}} out of 5</p>
     <h2>Thank you!</h2>
